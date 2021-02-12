@@ -5,6 +5,7 @@
 // Constructor
 Virtual_Master::Virtual_Master(size_t x, size_t y) {
 	std::string mapFile = "Image\\Map.bmp";
+
 	space_ = std::shared_ptr<GameSpace>(new GameSpace(x, y));
 	creatWall(mapFile);
 
